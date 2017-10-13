@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.naveed.unitconverter" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity android:name=".Splashscreen"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity2Activity"
+            android:label="@string/title_activity_main_activity2" >
+        </activity>
+        <activity
+            android:name=".MainActivity22Activity"
+            android:label="@string/title_activity_main_activity22" >
+        </activity>
+        <activity
+            android:name=".Lenght"
+            android:label="@string/title_activity_lenght" >
+        </activity>
+        <activity
+            android:name=".Speed"
+            android:label="@string/title_activity_speed" >
+        </activity>
+        <activity
+            android:name=".Currency"
+            android:label="@string/title_activity_currency" >
+        </activity>
+        <activity
+            android:name=".Volume"
+            android:label="@string/title_activity_volume" >
+        </activity>
+        <activity
+            android:name=".Time"
+            android:label="@string/title_activity_time" >
+        </activity>
+        <activity
+            android:name=".Area"
+            android:label="@string/title_activity_area" >
+        </activity>
+        <activity
+            android:name=".Fuel"
+            android:label="@string/title_activity_fuel" >
+        </activity>
+        <activity
+            android:name=".Pressure"
+            android:label="@string/title_activity_pressure" >
+        </activity>
+        <activity
+            android:name=".Energy"
+            android:label="@string/title_activity_energy" >
+        </activity>
+        <activity
+            android:name=".Storage"
+            android:label="@string/title_activity_storage" >
+        </activity>
+
+
+    </application>
+
+</manifest>

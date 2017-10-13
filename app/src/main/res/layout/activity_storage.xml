@@ -1,0 +1,132 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.naveed.unitconverter.MainActivity2Activity"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="250dp"
+        android:orientation="vertical"
+        android:background="#ba0909"
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/back3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:onClick="moveBack"
+                android:background="@drawable/ic_arrow_back_black_24dp"
+
+                />
+
+            <TextView
+                android:text="Storage"
+                android:textStyle="bold"
+                android:textSize="35sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="30dp"
+                android:layout_gravity="center"
+                android:textColor="#FFFFFF"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="fill_parent"
+                android:text="From"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                android:textColor="#FFFFFF"
+                />
+            <Spinner
+
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:entries="@array/storage1">
+            </Spinner>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="fill_parent"
+                android:text="To"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                android:textColor="#FFFFFF"
+                />
+            <Spinner
+
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:entries="@array/storage2">
+            </Spinner>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        >
+
+        <EditText
+            android:id="@+id/et12"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:hint="Enter Value To Convert.."/>
+
+        <Button
+            android:id="@+id/btn12"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:text="Convert"
+            android:textSize="20sp"
+            android:onClick="convert"/>
+        <TextView
+            android:id="@+id/tv12"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

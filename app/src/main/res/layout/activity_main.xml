@@ -1,0 +1,248 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:weightSum="5"
+    android:background="#C0C0C0">
+
+         <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="1dp"
+             android:layout_weight="1"
+             android:background="#FF5733"
+             android:layout_marginBottom="2dp">
+
+             <TextView
+                     android:id="@+id/txtv1"
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:text="Unit Converter"
+                     android:textSize="30dp"
+                     android:textStyle="bold"
+                     android:textColor="#FFFFFF"
+                     android:layout_margin="10dp"/>
+
+        </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:background="#C0C0C0"
+        android:weightSum="3"
+
+        >
+
+            <ImageButton
+                android:id="@+id/b1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="Temperature"
+                android:background="#FFFFFF"
+                android:onClick="called"
+                android:src="@drawable/temp"
+                 />
+            <ImageButton
+                android:id="@+id/b2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/weight"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="Weight"
+                android:textStyle="bold"
+                android:onClick="called"
+                android:gravity="bottom|center"
+                android:background="#FFFFFF"
+                />
+
+            <ImageButton
+                android:id="@+id/b3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/length"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:text="Lenght"
+                android:textStyle="bold"
+                android:onClick="called"
+                android:gravity="bottom|center"
+                android:background="#FFFFFF"
+                />
+
+
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:background="#C0C0C0"
+        android:weightSum="3"
+
+        >
+
+        <ImageButton
+            android:id="@+id/b4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/speed"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:gravity="bottom|center"
+            android:text="Speed"
+            android:textStyle="bold"
+            android:onClick="called"
+            android:background="#FFFFFF"
+            />
+        <ImageButton
+            android:id="@+id/b5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/currency"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="Currency"
+            android:onClick="called"
+            android:textStyle="bold"
+            android:gravity="bottom|center"
+            android:background="#FFFFFF"/>
+        <ImageButton
+            android:id="@+id/b6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/vol"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="Volume"
+            android:textStyle="bold"
+            android:onClick="called"
+            android:gravity="bottom|center"
+            android:background="#FFFFFF"
+             />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:background="#C0C0C0"
+        android:weightSum="3"
+
+        >
+
+        <ImageButton
+            android:id="@+id/b7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/time"
+            android:layout_margin="5dp"
+            android:gravity="bottom|center"
+            android:layout_weight="1"
+            android:text="Time"
+            android:textStyle="bold"
+            android:onClick="called"
+            android:background="#FFFFFF"
+            />
+        <ImageButton
+            android:id="@+id/b8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/area"
+            android:layout_margin="5dp"
+            android:gravity="bottom|center"
+            android:layout_weight="1"
+            android:text="Area"
+            android:textStyle="bold"
+            android:onClick="called"
+            android:background="#FFFFFF"
+            />
+        <ImageButton
+            android:id="@+id/b9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/fuel"
+            android:layout_margin="5dp"
+            android:gravity="bottom|center"
+            android:layout_weight="1"
+            android:text="Fuel"
+            android:textStyle="bold"
+            android:onClick="called"
+            android:background="#FFFFFF"
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:background="#C0C0C0"
+        android:weightSum="3"
+
+        >
+
+        <ImageButton
+            android:id="@+id/b10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/pressure"
+            android:layout_margin="5dp"
+            android:gravity="bottom|center"
+            android:layout_weight="1"
+            android:text="Presure"
+            android:textStyle="bold"
+            android:onClick="called"
+            android:background="#FFFFFF"
+            />
+        <ImageButton
+            android:id="@+id/b11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/energy"
+            android:layout_margin="5dp"
+            android:gravity="bottom|center"
+            android:layout_weight="1"
+            android:text="Energy"
+            android:textStyle="bold"
+            android:onClick="called"
+            android:background="#FFFFFF"
+            />
+        <ImageButton
+            android:id="@+id/b12"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/storage"
+            android:layout_margin="5dp"
+            android:gravity="bottom|center"
+            android:layout_weight="1"
+            android:text="Storage"
+            android:textStyle="bold"
+            android:onClick="called"
+            android:background="#FFFFFF"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
